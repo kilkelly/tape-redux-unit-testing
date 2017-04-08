@@ -1,0 +1,24 @@
+{
+  "name": "tape-redux-unit-testing",
+  "version": "1.0.0",
+  "description": "Unit test a Redux store using Tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape src/**/*.js | faucet"
+  },
+  "keywords": [
+    "redux",
+    "tape",
+    "javascript",
+    "unit",
+    "test"
+  ],
+  "author": "Frank Kilkelly",
+  "license": "MIT",
+  "dependencies": {
+    "faucet": "^0.0.1",
+    "redux": "^3.6.0",
+    "tape": "^4.6.3"
+  },
+  "devDependencies": {}
+}
