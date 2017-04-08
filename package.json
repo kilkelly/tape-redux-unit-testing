@@ -6,6 +6,10 @@
   "scripts": {
     "test": "tape src/**/*.js | faucet"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilkelly/tape-redux-unit-testing.git"
+  },
   "keywords": [
     "redux",
     "tape",
